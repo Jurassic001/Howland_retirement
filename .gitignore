@@ -1,0 +1,14 @@
+# .vscode folder
+.vscode/**
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# IntelliJ IDEA/PyCharm folders
+.idea/
+
+# python cache files
+__pycache__/
+*.pyc
+
+# python virtual environment for development
+.venv/

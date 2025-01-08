@@ -1,0 +1,14 @@
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.black]
+line-length = 150
+
+[tool.autoflake]
+recursive = true
+in-place = true
+remove-all-unused-imports = true
+expand-star-imports = true
+remove-duplicate-keys = true
+remove-unused-variables = true
