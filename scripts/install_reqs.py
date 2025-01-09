@@ -10,9 +10,9 @@ DEFAULT_DIR: str = os.path.join(os.path.dirname(os.path.dirname(__file__)))
 
 # set up color codes
 RED: str = "\033[0;31m"
-LIGHTRED: str = "\033[1;31m"
+BOLDRED: str = "\033[1;31m"
 GREEN: str = "\033[0;32m"
-LIGHTGREEN: str = "\033[1;32m"
+BOLDGREEN: str = "\033[1;32m"
 CYAN: str = "\033[0;36m"
 NC: str = "\033[0m"  # No color
 
