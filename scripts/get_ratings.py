@@ -6,7 +6,9 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-start_time = time.time()  # Track program time cuz I'm curious
+START_TIME = time.time()  # Track program time cuz I'm curious
+URL = "https://sites.google.com/hpisd.org/howlandsmoviereviews/home?pli=1"  # URL for Mr. Howland's movie review website
+DATAPATH = "data\\howland_ratings.csv"  # Path to save the CSV file to
 
 # I promise colors are absolutely necessary for this, no I am not addicted to coloring strings
 RED: str = "\033[0;31m"
@@ -19,18 +21,17 @@ NC: str = "\033[0m"
 
 
 def main():
-    print(f"{CYAN}Fetching reviews... ({time.time() - start_time:.2f}s)")
-    url = "https://sites.google.com/hpisd.org/howlandsmoviereviews/home?pli=1"
-    response = requests.get(url)
-    print(f"Reviews fetched ({time.time() - start_time:.2f}s)")
-    soup = BeautifulSoup(response.text, "html.parser")
-    reviews = soup.select("li.zfr3Q")
-    print(f"Review HTML parsed ({time.time() - start_time:.2f}s){NC}", end="\n\n")
+    print(f"{CYAN}Fetching review website... ({time.time() - START_TIME:.2f}s)")
+    response = requests.get(URL)
+    print(f"Website fetched ({time.time() - START_TIME:.2f}s)")
+    parsable = BeautifulSoup(response.text, "html.parser")
+    reviews = parsable.select("li.zfr3Q")
+    print(f"Review HTML parsed ({time.time() - START_TIME:.2f}s){NC}", end="\n\n")
 
-    print(f"{GREEN}Parsing & writing data to CSV file... ({time.time() - start_time:.2f}s){NC}", end="\n\n")
-    with open("howland_ratings.csv", "w", newline="", encoding="utf-8") as csv_file:
+    print(f"{GREEN}Parsing & writing data to CSV file... ({time.time() - START_TIME:.2f}s){NC}", end="\n\n")
+    with open(DATAPATH, "w", newline="", encoding="utf-8") as csv_file:
         writer = csv.writer(csv_file, delimiter=",")
-        writer.writerow(["MovieName", "Rating", "Notes"])
+        writer.writerow(["Name", "Rating", "Notes"])
         review_count = len(reviews)
         for i, review in enumerate(reviews):
             # Process each review and setup some default vals
@@ -40,7 +41,7 @@ def main():
 
             # Check & log progress at each 10% interval
             if i % (review_count // 10) == 0:
-                print(f"{LIGHTGREEN}{i}/{review_count} reviews parsed & written ({time.time() - start_time:.2f}s){NC}")
+                print(f"{LIGHTGREEN}{i}/{review_count} reviews parsed & written ({time.time() - START_TIME:.2f}s){NC}")
 
             # Check for content in parentheses, which we call notes
             """notes_match Regex breakdown:
@@ -79,26 +80,26 @@ def main():
                     rating = rating_match.group(0)
                     text = re.sub(r"\d+/10", "", text).strip()  # literally a dupe of the above regex, just a substitute instead of a search
                 else:
-                    print(f'\n{RED}Couldn\'t find rating in "{text}".  Attempting to account for formatting errors... ({time.time() - start_time:.2f}s){NC}')
+                    print(f'\n{RED}Couldn\'t find rating in "{text}".  Attempting to account for formatting errors... ({time.time() - START_TIME:.2f}s){NC}')
                     # Regex so simple it barely deserves it's own comment, just looks for number/0 instead of number/10
                     bad_ten_match = re.search(r"\d+/0", text)
                     if bad_ten_match:
                         # a "bad ten" is a rating that is out of zero instead of ten on accident
                         rating = bad_ten_match.group(0)
-                        print(f"{YELLOW}{rating} detected, correcting to {(rating := rating.replace("/0", "/10"))} ({time.time() - start_time:.2f}s){NC}", end="\n\n")
+                        print(f"{YELLOW}{rating} detected, correcting to {(rating := rating.replace("/0", "/10"))} ({time.time() - START_TIME:.2f}s){NC}", end="\n\n")
                         text = re.sub(r"\d+/0", "", text).strip()  # this one is so simple I'm going to link the Regex wikipedia page: https://en.wikipedia.org/wiki/Regular_expression
                     # more formatting errors can be addressed here if needed
                     else:
                         # Failsafe, honestly the program should just exit here because bad data is 100x worse than debugging
-                        print(f"{BOLDRED}Couldn't find rating, skipping this entry ({time.time() - start_time:.2f}s){NC}")
+                        print(f"{BOLDRED}Couldn't find rating, skipping this entry ({time.time() - START_TIME:.2f}s){NC}")
                         continue
 
             # The rest of the text should be the movie name
             writer.writerow([text.strip(), rating, notes])
-    print(f"\n{GREEN}Data saved successfully ({time.time() - start_time:.2f}s)")
+    print(f"\n{GREEN}Data saved successfully ({time.time() - START_TIME:.2f}s)")
 
 
 if __name__ == "__main__":
     main()
-    print(f"Opening CSV file... ({time.time() - start_time:.2f}s) {NC}")
-    os.startfile("howland_ratings.csv")
+    print(f"Opening CSV file... ({time.time() - START_TIME:.2f}s) {NC}")
+    os.startfile(DATAPATH)
