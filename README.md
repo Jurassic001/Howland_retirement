@@ -22,3 +22,4 @@ Solving the mystery put forth by my AP Macroeconomics teacher, Mr. Howland
 - `scripts`: Contains scripts used for repository setup and data gathering/analysis
     - [`get_ratings.py`](scripts/get_ratings.py): Python script to scrape and organize movie ratings from Mr.Howland's website
     - [`install_reqs.py`](scripts/install_reqs.py): Simple helper script for installing required packages and setting up git hooks. Standard practice for my repos
+    - [`tmdb_ratings.py`](scripts/tmdb_ratings.py): Python script to fetch movie ratings, official name, and other useful tidbits from [The Movie Database API](https://developer.themoviedb.org/docs/getting-started)

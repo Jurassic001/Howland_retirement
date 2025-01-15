@@ -12,3 +12,6 @@ __pycache__/
 
 # python virtual environment for development
 .venv/
+
+# config file (contains sensitive information)
+scripts/config.json
