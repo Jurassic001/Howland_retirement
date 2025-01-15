@@ -15,6 +15,7 @@ Solving the mystery put forth by my AP Macroeconomics teacher, Mr. Howland
 - `data`: Contains data tables relating to the mystery
     - [`howland_ratings.csv`](data/howland_ratings.csv): Formatted data of each movie rating posted to [Mr.Howland's website](https://sites.google.com/hpisd.org/howlandsmoviereviews/home?pli=1)
     - [`hb_movies.csv`](data/hb_movies.csv): Formatted data of each movie that Humphrey Bogart has appeared in. Scraped from [Wikipedia](https://en.wikipedia.org/wiki/Humphrey_Bogart_on_stage,_screen,_radio_and_television#List_of_feature_films) using [WikiTable2CSV](https://github.com/gambolputty/wikitable2csv). Scraped data needs some manual editing to make it RBQL/SQL-friendly
+    - [`data_analysis`](data/data_analysis.md): Analysis & comparisons of the data tables
 - `poster`: Contains high-rez image of the poster, a short written analysis, and any other poster-related files
     - [`poster.jpg`](poster/poster.jpg): Image of the poster
     - [`poster_analysis.md`](poster/poster_analysis.md): Written analysis of the poster
