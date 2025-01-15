@@ -1,4 +1,4 @@
-# Poster_analysis
+# poster_analysis
 This document contains observations, possible clues, and conclusions drawn from the poster in Mr. Howland's room
 
 ## Information
@@ -17,3 +17,8 @@ Direct Relief is a humanitarian and nonprofit/nonpartisan aid organization with 
 
 [Link to the original article](https://eviltender.com/2020/04/29/on-sale-spring-shelter-by-laurent-durieux/)
 </details>
+
+<br/><br/><br/>
+<p align="center">
+    <img src="poster.jpg" alt="Spring Shelter by Laurent Durieux" width="50%">
+</p>
