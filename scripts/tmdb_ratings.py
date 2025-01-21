@@ -45,8 +45,8 @@ def get_tmdb_rating(title, notes):
     response = requests.get(url, headers=headers)
     data = response.json()
     if data.get("results"):
-        return data["results"][0].get("vote_average"), data["results"][0].get("original_title"), data["results"][0].get("id")
-    return None, None, None
+        return data["results"][0].get("vote_average"), data["results"][0].get("id")
+    return None, None
 
 
 def main():
@@ -61,20 +61,19 @@ def main():
 
         with open(POP_RANKS, "w", newline="", encoding="utf-8") as popular_ratings:
             writer = csv.writer(popular_ratings)
-            # Mr. Howland's website has some small typos here and there, so we grab the official name from TMDB (which has generous autocorrect, thank god)
-            writer.writerow(["Name", "Rating", "TMDB ID", "Howland Name"])
+            writer.writerow(["Name", "Rating", "TMDB ID"])
 
             for i, row in enumerate(rows):
-                # grab the name/notes from Howland's ratings and get the popular rating, official name, and movie ID from TMDB
-                howland_name = row[0]
+                # grab the name/notes from Howland's ratings and get the popular rating and movie ID from TMDB
+                movie_name = row[0]
                 notes = row[2] if len(row) > 2 else ""
-                rating, official_name, id = get_tmdb_rating(howland_name, notes)
+                rating, id = get_tmdb_rating(movie_name, notes)
 
                 if rating is not None:
-                    # Write the official movie name, rating, and the name from Mr. Howland's website if it differs
-                    writer.writerow([official_name, rating, id, howland_name if howland_name != official_name else ""])
+                    # Write the name, rating, and the ID of the movie on TMDB
+                    writer.writerow([movie_name, rating, id])
                 else:
-                    print(f'{YELLOW}Could not retrieve rating for "{howland_name}", skipping...{NC}')
+                    print(f'{YELLOW}Could not retrieve rating for "{movie_name}", skipping...{NC}')
                     failed_fetches += 1
                     if failed_fetches >= failure_limit:
                         # if we've failed to fetch more than 10% of the movies, exit
