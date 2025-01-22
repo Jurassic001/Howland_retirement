@@ -1,5 +1,4 @@
 import csv
-import os
 import re
 import time
 
@@ -101,5 +100,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print(f"Opening CSV file... ({time.time() - START_TIME:.2f}s) {NC}")
-    os.startfile(DATAPATH)
