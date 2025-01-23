@@ -9,8 +9,8 @@ jobs:
   get_ratings:
     runs-on: ubuntu-latest
     permissions:
-      # write permissions required for cancelling the workflow
-      actions: "write"
+      # write permissions required for checking out private repository
+      contents: write
 
     steps:
       - name: Checkout repository
