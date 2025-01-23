@@ -1,0 +1,40 @@
+name: Gather data
+on:
+  schedule:
+    # Runs at midnight on the first day of each month
+    - cron: '0 0 1 * *'
+
+jobs:
+  get_ratings:
+    runs-on: ubuntu-latest
+    permissions:
+      # write permissions required for cancelling the workflow
+      actions: "write"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python scripts/install_reqs.py
+
+      - name: Gather Howland's ratings
+        run: python scripts/get_ratings.py
+
+      - name: Gather TMDB ratings
+        run: python scripts/tmdb_ratings.py --tmdb_token ${{ secrets.TMDB_TOKEN }}
+
+      - name: Compare ratings
+        run: python scripts/compare_ratings.py --tmdb_token ${{ secrets.TMDB_TOKEN }}
+
+      - name: Commit on changes
+        # Commit changed files to the repository. If there are no changes, no commit will be made
+        # See https://michaelheap.com/git-auto-commit/ for info on this action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update all ratings"
