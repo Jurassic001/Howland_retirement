@@ -3,6 +3,7 @@ on:
   schedule:
     # Runs at midnight on the first day of each month
     - cron: '0 0 1 * *'
+  workflow_dispatch:
 
 jobs:
   get_ratings:
