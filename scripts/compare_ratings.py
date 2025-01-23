@@ -8,9 +8,9 @@ import time
 import requests
 
 START_TIME = time.time()
-H_RANKS = "data\\howland_ratings.csv"
-POP_RANKS = "data\\popular_ratings.csv"
-COMP_RANKS = "data\\compared_ratings.csv"
+H_RANKS = "data/howland_ratings.csv"
+POP_RANKS = "data/popular_ratings.csv"
+COMP_RANKS = "data/compared_ratings.csv"
 
 # Color constants
 RED = "\033[0;31m"

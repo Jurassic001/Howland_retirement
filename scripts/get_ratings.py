@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 START_TIME = time.time()  # Track program time cuz I'm curious
 URL = "https://sites.google.com/hpisd.org/howlandsmoviereviews/home?pli=1"  # URL for Mr. Howland's movie review website
-DATAPATH = "data\\howland_ratings.csv"  # Path to save the CSV file to
+DATAPATH = "data/howland_ratings.csv"  # Path to save the CSV file to
 
 # I promise colors are absolutely necessary for this, no I am not addicted to coloring strings
 RED: str = "\033[0;31m"
