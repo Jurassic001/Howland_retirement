@@ -20,12 +20,12 @@ NC: str = "\033[0m"
 
 
 def main():
-    print(f"{CYAN}Fetching review website... ({time.time() - START_TIME:.2f}s)")
+    print(f"{CYAN}Fetching review website... ({time.time() - START_TIME:.2f}s){NC}")
     response = requests.get(URL)
-    print(f"Website fetched ({time.time() - START_TIME:.2f}s)")
+    print(f"{CYAN}Website fetched ({time.time() - START_TIME:.2f}s){NC}")
     parsable = BeautifulSoup(response.text, "html.parser")
     reviews = parsable.select("li.zfr3Q")
-    print(f"Review HTML parsed ({time.time() - START_TIME:.2f}s){NC}", end="\n\n")
+    print(f"{CYAN}Review HTML parsed ({time.time() - START_TIME:.2f}s){NC}", end="\n\n")
 
     print(f"{GREEN}Parsing & writing data to CSV file... ({time.time() - START_TIME:.2f}s){NC}", end="\n\n")
     with open(DATAPATH, "w", newline="", encoding="utf-8") as csv_file:
