@@ -2,7 +2,7 @@ name: Gather data
 on:
   schedule:
     # Runs at midnight on the first day of each month
-    - cron: '0 0 1 * *'
+    - cron: "0 0 1 * *"
   workflow_dispatch:
 
 jobs:
@@ -33,9 +33,12 @@ jobs:
       - name: Compare ratings
         run: python scripts/compare_ratings.py --tmdb_token ${{ secrets.TMDB_TOKEN }}
 
+      - name: Generate graph
+        run: python scripts/graph_gen.py --noshow
+
       - name: Commit on changes
         # Commit changed files to the repository. If there are no changes, no commit will be made
         # See https://michaelheap.com/git-auto-commit/ for info on this action
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update all ratings"
+          commit_message: "Update all data"
