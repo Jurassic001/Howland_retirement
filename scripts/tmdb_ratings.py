@@ -22,8 +22,10 @@ NC = "\033[0m"
 
 
 def get_tmdb_rating(title, notes):
-    """Get the rating & official name of a movie from The Movie Database API.
-    If a release date is included in Mr. Howland's notes, incorporate that into the query"""
+    """Get the rating & TMDB ID of a movie from The Movie Database API.
+    If a release date is included in Mr. Howland's notes, incorporate that into the query.
+
+    If the movie is not found or has no votes, return None."""
 
     # Build the API query from the movie title
     url = f"https://api.themoviedb.org/3/search/movie?query={title}&include_adult=false&language=en-US"
@@ -44,7 +46,7 @@ def get_tmdb_rating(title, notes):
     # JSONify the response and extract the rating, official name, and ID
     response = requests.get(url, headers=headers)
     data = response.json()
-    if data.get("results"):
+    if data.get("results") and int(data["results"][0].get("vote_count")) != 0:
         return data["results"][0].get("vote_average"), data["results"][0].get("id")
     return None, None
 
@@ -73,7 +75,7 @@ def main():
                     # Write the name, rating, and the ID of the movie on TMDB
                     writer.writerow([movie_name, rating, id])
                 else:
-                    print(f'{YELLOW}Could not retrieve rating for "{movie_name}", skipping...{NC}')
+                    print(f'{YELLOW}Could not retrieve data or no votes found for "{movie_name}", skipping...{NC}')
                     failed_fetches += 1
                     if failed_fetches >= failure_limit:
                         # if we've failed to fetch more than 10% of the movies, exit
