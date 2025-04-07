@@ -1,7 +1,9 @@
 # poster_analysis
+
 This document contains observations, possible clues, and conclusions drawn from the poster in Mr. Howland's room
 
 ## Information
+
 The poster is **Spring Shelter** by _Laurent Durieux_
 
 <details>
@@ -16,9 +18,11 @@ After costs, all proceeds of the timed edition poster will be split 50/50 betwee
 Direct Relief is a humanitarian and nonprofit/nonpartisan aid organization with a mission to improve the health and lives of people affected by poverty or emergencies. The Alamo Family Fund was created to help Alamo Drafthouse employees who are facing financial hardship after a natural disaster or an unforeseen personal hardship including the global pandemic COVID-19, which has resulted in the unfortunate furlough of virtually all venue/theater members, and up to 80% of corporate staff.
 
 [Link to the original article](https://eviltender.com/2020/04/29/on-sale-spring-shelter-by-laurent-durieux/)
+
 </details>
 
 <br/><br/><br/>
+
 <p align="center">
     <img src="poster.jpg" alt="Spring Shelter by Laurent Durieux" width="50%">
 </p>
