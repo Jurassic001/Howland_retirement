@@ -56,12 +56,12 @@ def query_movie_title_and_name(tmdb_id: int) -> tuple[str, list[str]]:
     # JSONify the response and extract the movie title and genres
     response = requests.get(url, headers=headers)
     data: dict = response.json()
-    if data.get("original_title") is None:
-        # We grab the official movie title because some movies are named incorrectly in Mr. Howland's reviews
+    if data.get("title") is None:
+        # We grab the movie title from TMDB because some movies are named incorrectly in Mr. Howland's reviews
         print(f"{RED}Movie title could not be found{NC}")
         print(f"{YELLOW}Response: {data}{NC}")
         sys.exit(1)
-    return data["original_title"], [genre["name"] for genre in data["genres"]]
+    return data["title"], [genre["name"] for genre in data["genres"]]
 
 
 def main():
