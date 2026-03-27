@@ -80,13 +80,6 @@ def main(directory: str, strict: bool, bypass_venv: bool) -> None:
             check=strict,
         )
 
-    print_with_sidebars("Setting up git hooks", CYAN)
-    # Setup pre-commit hooks
-    subprocess.run(
-        ["pre-commit", "install"],
-        check=strict,
-        cwd=PARENT_PATH,
-    )
     print_with_sidebars("Requirement installation/setup successful", GREEN)
     sys.exit(0)
 
