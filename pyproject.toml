@@ -1,14 +1,11 @@
-[tool.isort]
-profile = "black"
-multi_line_output = 3
-
-[tool.black]
-line-length = 200
-
-[tool.autoflake]
-recursive = true
-in-place = true
-remove-all-unused-imports = true
-expand-star-imports = true
-remove-duplicate-keys = true
-remove-unused-variables = true
+[project]
+name = "howland-retirement"
+version = "1.0.0"
+description = "Solving the retirement poster mystery put forth by my AP Macroeconomics teacher, Mr. Howland"
+readme = "README.md"
+requires-python = "==3.12.12"
+dependencies = [
+    "bs4==0.0.2",
+    "matplotlib==3.10.8",
+    "requests==2.33.1",
+]

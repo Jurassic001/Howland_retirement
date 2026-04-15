@@ -25,9 +25,11 @@ Solving the mystery put forth by my AP Macroeconomics teacher, Mr. Howland
 - `poster`: Contains high-rez image of the poster, a short written analysis, and any other poster-related files
   - [`poster.jpg`](poster/poster.jpg): Image of the poster
   - [`poster_analysis.md`](poster/poster_analysis.md): Written analysis of the poster
+- `data/year_archives`: Archived yearly ratings files (2019–2025), each in `Name,Rating,Notes` format
 - `scripts`: Contains scripts used for repository setup and data gathering/analysis
-  - [`install_reqs.py`](scripts/install_reqs.py): Simple helper script for installing required packages and setting up git hooks. Standard practice for my repos
-  - [`get_ratings.py`](scripts/get_ratings.py): Python script to scrape and organize movie ratings from Mr.Howland's website
+  - [`get_ratings.py`](scripts/get_ratings.py): Python script to scrape and organize movie ratings from Mr. Howland's website
+  - [`transform_archives.py`](scripts/transform_archives.py): One-time utility to convert raw yearly archive exports into the standard `Name,Rating,Notes` CSV format in-place
+  - [`prepend_archives.py`](scripts/prepend_archives.py): Prepends all year archive entries (oldest first) to `howland_ratings.csv`, used by the CI pipeline before TMDB lookups
   - [`tmdb_ratings.py`](scripts/tmdb_ratings.py): Python script to fetch movie ratings, official name, and other useful tidbits from [The Movie Database API](https://developer.themoviedb.org/docs/getting-started)
   - [`compare_ratings.py`](scripts/compare_ratings.py): Python script to combine Mr. Howland's ratings with the popular ratings from TMDB, as well as source additional information like movie genre and official title
   - [`graph_gen.py`](scripts/graph_gen.py): Python script to generate a graph comparing Mr. Howland's ratings to the popular ratings from TMDB. Uses Matplotlib for graph generation

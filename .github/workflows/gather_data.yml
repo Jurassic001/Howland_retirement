@@ -16,25 +16,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
 
-      - name: Install dependencies
-        run: python scripts/install_reqs.py
+      - name: Set up project
+        run: uv sync
 
       - name: Gather Howland's ratings
-        run: python scripts/get_ratings.py
+        run: uv run scripts/get_ratings.py
+
+      - name: Prepend archived data
+        run: uv run scripts/prepend_archives.py
 
       - name: Gather TMDB ratings
-        run: python scripts/tmdb_ratings.py --tmdb_token ${{ secrets.TMDB_TOKEN }}
+        run: uv run scripts/tmdb_ratings.py --tmdb_token ${{ secrets.TMDB_TOKEN }}
 
       - name: Compare ratings
-        run: python scripts/compare_ratings.py --tmdb_token ${{ secrets.TMDB_TOKEN }}
+        run: uv run scripts/compare_ratings.py --tmdb_token ${{ secrets.TMDB_TOKEN }}
 
       - name: Generate graph
-        run: python scripts/graph_gen.py --noshow
+        run: uv run scripts/graph_gen.py --noshow
 
       - name: Commit on changes
         # Commit changed files to the repository. If there are no changes, no commit will be made

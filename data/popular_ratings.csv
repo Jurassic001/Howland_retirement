@@ -1,102 +1,461 @@
 Name,Rating,TMDB ID
-Eternity,6.55,1259102
-Nuremberg,7.303,1214931
-Predator: Badlands,7.414,1242898
-Self-Help,9.0,725695
-Regretting You,7.1,1327862
-Springsteen: Deliver me from Nowhere,7.0,1230368
-Shelby Oaks,5.686,937941
-Good Fortune,7.095,1114967
-Black Phone 2,6.866,1197137
-Roofman,7.244,1242419
-Tron: Ares,6.313,533533
-One Battle After Another,7.5,1054867
-Dead of Winter,6.5,1235746
-A Big Bold Beautiful Journey,6.314,1241921
-Him,5.864,986097
-The Long Walk,6.9,604079
-Spinal Tap 2: The End Continues,6.9,975225
-The Conjuring: Last Rites,6.973,1038392
-Caught Stealing,6.895,1245993
-The Roses,6.756,1267905
-Trust,5.7,1244953
-Honey Don't,5.659,1149504
-Primitive War,6.802,1257009
-Witchboard,5.8,1107325
-Eden,6.739,1042834
-Americana,1.2,283734
-Together,7.1,1242011
-Nobody 2,7.06,1007734
-Sketch,7.151,1319969
-Strange Harvest,6.804,1330443
-Weapons,7.321,1078605
-East of Wall,6.2,1398911
-"Sorry, Baby",6.8,1205515
-The Naked Gun,6.504,1035259
-Eddington,6.469,648878
-Ick,6.6,1218493
-Bambi: The Reckoning,5.604,1049942
-House on Eden,4.4,1362514
-The Fantastic Four: First Steps,7.036,617126
-I Know What You Did Last Summer,5.805,1083433
-Abraham’s Boys: A Dracula Story,5.537,1452176
-Skillhouse,4.0,962354
-Superman,7.414,1061474
-Jurassic World Rebirth,6.378,1234821
-M3GAN 2.0,7.4,1071585
-Elio,6.977,1022787
-28 Years Later,6.671,1100988
-Materialists,6.495,1136867
-The Life of Chuck,7.346,842924
-How to Train Your Dragon,8.0,1087192
-Karate Kid: Legends,7.099,1011477
-Dangerous Animals,6.4,1285965
-Ballerina,7.32,541671
-Bring Her Back,7.415,1151031
-Friendship,6.5,1239655
-Lilo & Stitch,7.2,552524
-Mission Impossible: The Final Reckoning,7.259,575265
-Hurry Up Tomorrow,5.263,1093237
-Clown in a Cornfield,6.107,713364
-The Surfer,5.804,1128655
-Thunderbolts*,7.311,986056
-Until Dawn,6.39,1232546
-The Legend of Ochi,6.2,896536
-The Ballad of Wallis Island,7.097,1122099
-Sinners,7.508,1233413
-Marshmallow,6.109,1134048
-The Accountant 2,7.119,870028
-Drop,6.386,1249213
-Warfare,7.1,1241436
-The Amateur,6.97,1087891
-_____ of a Summer,5.6,999243
-The Luckiest Man in America,6.4,1288070
-A Minecraft Movie,6.348,950387
-Screamboat,5.08,1225572
-The Woman in the Yard,5.712,1244944
-A Working Man,6.706,1197306
-Death of a Unicorn,6.424,1153714
-The Assessment,6.865,1317088
-Ash,5.199,931349
-Locked,6.3,1083968
-Snow White,4.297,447273
-In the Lost Lands,6.411,324544
-Opus,5.688,1202479
-Novocaine,6.9,1195506
-Black Bag,6.342,1233575
-The Rule of Jenny Pen,5.975,1212742
-Mickey 17,6.847,696506
-Flight Risk,5.989,1126166
-Last Breath,6.967,972533
-I Heart Willie,4.778,1372605
-The Monkey,5.988,1124620
-Paddington in Peru,6.8,516729
-Heart Eyes,6.428,1302916
-Love Hurts,5.752,1226406
-Companion,7.044,1084199
-Presence,6.093,1140535
-One of Them Days,6.654,1280672
-The Brutalist,7.0,549509
-Wolfman,2.4,156310
-Peter Pan's Neverland Nightmare,5.764,1020414
-The Last Showgirl,6.504,1235499
+"Cats,",6.6,513386
+"Bombshell,",6.777,525661
+"Just Mercy,",7.856,522212
+"Jumanji The Next Level,",6.875,512200
+"joker,",8.126,475557
+"ad astra,",6.127,419704
+"judy,",6.678,491283
+"abominable,",7.5,431580
+"the peanut butter falcon,",7.396,463257
+"don't let go,",6.0,1236051
+"jexi,",6.755,620725
+"The Good Liar,",6.689,511322
+"gemini man,",6.265,453405
+"Queen and Slim,",7.135,536743
+"21 Bridges,",6.768,535292
+"Dark Waters,",7.5,552178
+"Knives Out,",7.839,546554
+"Beautiful Day in the Neighborhood,",6.968,501907
+"Frozen II,",7.233,330457
+"Ford v Ferrari,",8.005,359724
+"Midway,",7.096,522162
+"Last Christmas,",7.2,549053
+"Charlie's Angels,",5.852,4327
+"Doctor Sleep,",7.145,501170
+"Terminator Dark Fate,",6.415,290859
+"Countdown,",6.5,82477
+"Motherless Brooklyn,",6.694,504562
+"Zombieland 2,",6.899,338967
+"Little Women,",7.854,331482
+"1917,",7.987,530915
+"Uncut Gems,",7.161,473033
+"Marriage Story,",7.734,492188
+"The Irishman,",7.575,398978
+"The Two Popes,",7.49,551332
+"Come Play,",5.0,1020402
+"The Empty Man,",6.168,516632
+"Honest Thief,",6.481,553604
+"The Trial of the Chicago Seven,",7.7,556984
+"Infidel,",5.3,731165
+"Bill and Ted Face the Music,",5.9,501979
+"The New Mutants,",6.08,340102
+"Unhinged,",2.0,928322
+"The Way Back,",6.997,49009
+"Seberg,",5.893,510298
+"The Invisible Man,",7.092,570670
+"Fantasy Island,",5.763,539537
+"Call of the Wild,",6.0,27906
+"Sonic the Hedgehog,",7.286,454626
+"Pain and Glory,",7.373,519010
+"Birds of Prey,",4.214,104532
+"The Lodge,",6.112,474764
+"The Rhythm Section,",5.5,466622
+"Gretel & Hansel,",10.0,1535332
+"The Gentlemen,",7.662,522627
+"The Last Full Measure,",7.3,442065
+"Color Out of Space,",6.067,548473
+"Underwater,",6.279,443791
+"Dolittle,",6.577,448119
+"The Turning,",5.7,199570
+"The Grudge,",5.9,1970
+"I Still Believe,",7.571,585244
+"Onward,",7.642,508439
+"Nightmare Alley,",6.955,597208
+"Matrix Resurrections,",6.3,624860
+"Spiderman No Way Home,",7.934,634649
+"House of Gucci,",6.566,644495
+"Encanto,",7.569,568124
+"Spencer,",6.7,716612
+"Belfast,",7.041,777270
+"Eternals,",6.8,524434
+"Last Night in Soho,",7.278,576845
+"The Last Duel,",7.0,261151
+"Dune Part 1,",7.78,438631
+"Halloween Kills,",6.4,610253
+"Lamb,",6.427,788929
+"No Time to Die,",7.34,370172
+"The Protege,",6.6,645788
+"The Card Counter,",6.122,643532
+"Malignant,",6.749,619778
+"Shang-Chi,",7.0,143479
+"The Night House,",6.567,547565
+"Candyman,",6.0,565028
+"Free Guy,",7.453,550988
+"The Whale,",7.8,785084
+"Avatar: The Way of Water,",7.6,76600
+"Violent Night,",7.226,899112
+"Strange World,",6.232,877269
+"The Fabelmans,",7.572,804095
+"Bones and All,",7.0,791177
+"Glass Onion: A Knives Out Mystery,",7.033,661374
+"Devotion,",5.5,426485
+"The Banshees of Inisherin,",7.464,674324
+"The Menu,",7.171,593643
+"Black Panther Wakanda Forever,",7.007,505642
+"Triangle of Sadness,",7.0,497828
+"Prey for the Devil,",6.9,676547
+"Black Adam,",6.815,436270
+"Terrifier 2,",6.7,663712
+"Halloween Ends,",6.0,616820
+"Amsterdam,",6.068,664469
+"Smile,",6.662,882598
+"Don't Worry Darling,",6.771,619730
+"See How They Run,",6.3,338284
+"The Woman King,",7.614,724495
+"Where the Crawdads Sing,",7.529,682507
+"""Honk for Jesus, Save your Soul"",",4.7,848331
+"Vengeance,",6.3,96144
+"The Invitation,",6.0,830788
+"Prey,",7.662,766507
+"""Bodies, Bodies, Bodies"",",6.2,520023
+"Beast,",4.8,95385
+"Nope,",6.822,762504
+"Bullet Train,",7.413,718930
+"The Black Phone,",7.528,756999
+"Elvis,",7.463,614934
+"Thor : Love and Thunder,",6.4,616037
+"Lightyear,",6.879,718789
+"Jurassic World; Dominion,",6.603,507086
+"Top Gun Maverick,",8.151,361743
+"The Northman,",7.033,639933
+"Surfer: Teen Confronts Fear,",6.0,506071
+"Fantastic Beasts: Secrets of Dumbledore,",6.627,338953
+"Everything Everywhere All at Once,",7.7,545611
+"Sonic 2,",7.4,675353
+"Morbius,",5.918,526896
+"Cyrano,",6.3,730047
+"Studio 666,",5.885,895744
+"The Batman,",7.7,414906
+"The Cursed,",6.6,630392
+"Death on the Nile,",6.4,505026
+"The 355,",6.0,522016
+"Licorice Pizza,",6.955,718032
+"Saltburn,",6.955,930564
+"Poor Things,",7.648,792307
+"The Iron Claw,",7.507,850165
+"Aquaman and the Lost Kingdom,",6.526,572802
+"Ferrari,",3.0,516970
+"Anyone But You,",6.79,1072790
+"Wonka,",7.041,787699
+"Silent Night,",5.2,63079
+"The Boys in the Boat,",7.24,823452
+"The Boy and the Heron,",7.407,508883
+"Godzilla Minus One,",7.573,940721
+"Dream Scenario,",6.649,823482
+"Priscilla,",6.716,1020006
+"Wish,",6.222,1022796
+"Napoleon,",7.8,42536
+"Next Goal Wins,",6.413,621587
+"The Hunger Games: The Ballad of Songbirds & Snakes,",7.0,695721
+"The Holdovers,",7.651,840430
+"The Marvels,",5.941,609681
+"The Marsh King's Daughter,",6.366,798362
+"Anatomy of a Fall,",7.5,915935
+"Five Nights at Freddy's,",7.331,507089
+"Soulmates,",3.0,28931
+"Killers of the Flower Moon,",7.399,466420
+"When Evil Lurks,",7.151,744857
+"The Royal Hotel,",5.367,944952
+"The Kill Room,",5.9,958006
+"The Creator,",7.005,670292
+"It Lives Inside,",5.683,1024773
+"Satanic Hispanics,",5.889,1015080
+"A Haunting in Venice,",6.574,945729
+"Dumb Money,",6.7,792293
+"Aristotle and Dante Discover the Secrets of the Universe,",7.472,500104
+"The Nun 2,",6.6,968051
+"Don't Look Away,",4.4,1102425
+"The Equalizer 3,",7.29,926393
+"Retribution,",5.7,165845
+"Golda,",9.0,614168
+"Bottoms,",6.752,814776
+"Landscape with Invisible Hand,",5.9,777411
+"Birth/Rebirth,",6.5,1058638
+"Blue Beetle,",6.636,565770
+"The Last Voyage of the Demeter,",6.752,635910
+"Jules,",7.2,1072371
+"Gran Turismo,",7.705,980489
+"Theater Camp,",10.0,723919
+"Teenage Mutant Ninja Turtles: Mutant Mayhem,",7.2,614930
+"Meg 2: The Trench,",6.378,615656
+"Haunted Mansion,",2.0,137916
+"Oppenheimer,",8.0,872585
+"Barbie,",6.926,346698
+"Mission: Impossible - Dead Reckoning Part One,",7.5,575264
+"Sound of Freedom,",7.956,678512
+"The Lesson,",3.5,306292
+"No Hard Feelings,",6.678,884605
+"Past Lives,",7.715,666277
+"Indiana Jones and The Dial of Destiny,",6.513,335977
+"Asteroid City,",6.452,747188
+"God is a Bullet,",6.0,808396
+"Elemental,",7.578,976573
+"The Flash,",10.0,1401184
+"The Boogeyman,",1.0,511057
+"Spider-man: Across the Spider-verse,",8.333,569094
+"The Machine,",5.1,197537
+"The Little Mermaid,",5.5,1136767
+"Fast X,",7.0,385687
+"Hypnotic,",6.2,536437
+"Fool's Paradise,",4.6,553147
+"Guardians of the Galaxy Volume 3,",7.924,447365
+"Evil Dead Rise,",6.911,713704
+"Polite Society,",6.271,977223
+"Sisu,",7.414,840326
+"The Covenant,",2.0,414751
+"Beau is Afraid,",6.705,798286
+"Nefarious,",6.705,913673
+"Renfield,",6.451,649609
+"Paint,",5.4,821890
+"The Super Mario Bros. Movie,",7.6,502356
+"Malum,",5.516,1094403
+"Air,",7.0,562258
+"Dungeon & Dragons: Honor Among Thieves,",7.326,493529
+"A Good Person,",7.05,800787
+"John Wick Chapter 4,",7.707,603692
+"Shazam! Fury of the Gods,",6.428,594767
+"65,",5.95,700391
+"Scream 6,",6.952,934433
+"Creed 3,",7.077,677179
+"Cocaine Bear,",5.998,804150
+"Winnie-the-Pooh: Blood and Honey,",5.775,1079485
+"Living,",6.964,760099
+"All Quiet on the Western Front,",7.717,49046
+"Knock at the Cabin,",6.248,631842
+"Missing,",4.5,899331
+"Puss in Boots The last wish,",8.2,315162
+"Skinamarink,",5.3,994143
+"Babylon,",7.362,615777
+"Megan,",5.6,883987
+"A Man Called Otto,",7.753,937278
+"Talk to Me,",7.136,1008042
+"Mufasa : The Lion King,",7.31,762509
+"Lord of the Rings: The War of the Rohirrim,",6.544,839033
+"Y2K,",5.1,1094274
+"Moana 2,",6.994,1241982
+"Gladiator 2,",6.616,558449
+"Wicked,",6.911,402431
+"A Real Pain,",6.773,1013850
+"Red One,",6.992,845781
+"Anora,",7.1,1064213
+"Heretic,",6.978,1138194
+"Here,",6.527,940139
+"We Live in Time,",7.227,1100099
+"Conclave,",7.193,974576
+"Venom: The Last Dance,",6.661,912649
+"Rumours,",4.921,1187417
+"Smile 2,",6.593,1100782
+"Piece by Piece,",7.246,1236419
+"Joker: Folie a Deux,",5.4,889737
+"Megalopolis,",6.3,380444
+"The Wild Robot,",8.307,1184918
+"Transformers One,",8.0,698687
+"The Substance,",7.136,933260
+"The Killer's Game,",6.4,507241
+"Speak No Evil,",7.135,1114513
+"My Old _____,",6.781,947891
+"The Front Room,",5.012,1016848
+"""Beetlejuice, Beetlejuice"",",6.9,917496
+"City of Dreams,",6.3,901059
+"Afraid,",5.9,1062215
+"Strange Darling,",6.914,1029281
+"Slingshot,",5.4,151077
+"The Crow,",5.8,957452
+"Blink Twice,",6.679,840705
+"It Ends with Us,",6.9,1079091
+"Cuckoo,",5.7,869291
+"Alien: Romulus,",7.167,945961
+"Skincare,",6.0,1144911
+"Borderlands,",5.602,365177
+"Trap,",6.236,1032823
+"The Beast Within,",5.0,272873
+"Deadpool & Wolverine,",7.557,533535
+"Oddity,",6.657,1216191
+"Twisters,",6.778,718821
+"Longlegs,",6.5,1226578
+"The Bikeriders,",6.678,1008409
+"Despicable Me 4,",6.982,519182
+"MaXXXine,",6.301,1023922
+"Horizon: An American Saga Chapter 1,",6.814,932086
+"A Quiet Place: Day One,",6.655,762441
+"Latency,",5.9,1042657
+"Inside Out 2,",7.544,1022789
+"The Watchers,",6.3,1086747
+"Furiosa A Mad Max Saga,",7.451,786892
+"Ezra,",6.0,428642
+"Hit Man,",6.794,974635
+"The Strangers Chapter 1,",5.7,1010600
+"Kingdom of the Planet of the Apes,",7.1,653346
+"Tarot,",6.365,719221
+"The Fall Guy,",6.957,746036
+"Challengers,",6.915,937287
+"Abigail,",6.7,1111873
+"Spy x Family: Code White,",7.124,1062807
+"Sting,",6.194,1087388
+"Civil War,",6.855,929590
+"The Ministry of Ungentlemanly Warfare,",7.016,799583
+"Monkey Man,",6.9,560016
+"Late Night with the Devil,",7.112,938614
+"Godzilla X Kong: The New Empire,",7.048,823464
+"Winnie-the-Pooh: Blood and Honey 2,",5.775,1079485
+"Immaculate,",6.2,1041613
+"Ghostbusters: Frozen Empire,",6.5,967847
+"Imaginary,",5.912,1125311
+"Arthur the king,",7.5,618588
+"One Life,",1.5,64066
+"Dune Part 2,",8.13,693134
+"Kiss the Future,",6.4,1075845
+"Bob Marley: One Love,",6.609,802219
+"Madame Web,",5.301,634492
+"Lisa Frankenstein,",6.335,993784
+"Argylle,",5.994,848538
+"Out of Darkness,",5.7,823491
+"American Fiction,",7.265,1056360
+"Miller's Girl,",6.331,1026436
+"Freud's Last Session,",6.618,1025491
+"ISS,",5.791,790462
+"Mean Girls,",7.224,10625
+"Origin,",4.6,425487
+"The Beekeeper,",7.244,866398
+"Night Swim,",5.504,1072342
+"The Book of Clarence,",5.87,976584
+"The Housemaid,",7.197,1368166
+"Anaconda,",5.874,1234731
+"Hamnet,",7.7,858024
+"We Bury the Dead,",6.1,1198984
+"Ella McCay,",5.5,1206008
+"Avatar: Fire and Ash,",7.377,83533
+"Fackham Hall,",6.702,1175174
+"Five Nights at Freddy's 2,",6.7,1228246
+"Rental Family,",7.769,1208348
+"Wake Up Dead Man: A Knives Out Mystery (Knives Out 3),",7.2,812583
+"Zootopia 2,",7.601,1084242
+"Wicked For Good,",6.632,967941
+"Now You See Me 3,",6.508,425274
+"The Running Man,",6.758,798645
+"Eternity,",6.983,1259102
+"Nuremberg,",7.367,1214931
+"Predator: Badlands,",7.697,1242898
+"Self-Help,",5.0,1485629
+"Regretting You,",7.0,1327862
+"Springsteen: Deliver me from Nowhere,",6.698,1230368
+"Shelby Oaks,",5.69,937941
+"Good Fortune,",6.933,1114967
+"Black Phone 2,",6.7,1197137
+"Roofman,",7.114,1242419
+"Tron: Ares,",6.469,533533
+"One Battle After Another,",7.37,1054867
+"Dead of Winter,",6.358,1235746
+"A Big Bold Beautiful Journey,",6.238,1241921
+"Him,",4.5,752070
+"The Long Walk,",6.9,604079
+"Spinal Tap 2: The End Continues,",6.38,975225
+"The Conjuring: Last Rites,",6.881,1038392
+"Caught Stealing,",6.896,1245993
+"The Roses,",6.694,1267905
+"Trust,",3.2,572056
+"Honey Don't,",5.6,1149504
+"Primitive War,",6.534,1257009
+"Witchboard,",5.902,1107325
+"Eden,",6.7,137530
+"Americana,",6.3,934456
+"Together,",7.0,1242011
+"Nobody 2,",6.941,1007734
+"Sketch,",6.0,288403
+"Strange Harvest,",6.632,1330443
+"Weapons,",7.253,1078605
+"East of Wall,",6.2,1398911
+"""Sorry, Baby"",",6.9,1205515
+"The Naked Gun,",6.358,1035259
+"Eddington,",6.458,648878
+"Ick,",6.378,1218493
+"Bambi: The Reckoning,",5.6,1049942
+"House on Eden,",4.856,1362514
+"The Fantastic Four: First Steps,",7.0,617126
+"I Know What You Did Last Summer,",5.679,1083433
+"Abraham’s Boys: A Dracula Story,",5.274,1452176
+"Skillhouse,",4.0,962354
+"Superman,",7.343,1061474
+"Jurassic World Rebirth,",6.277,1234821
+"M3GAN 2.0,",7.233,1071585
+"Elio,",6.922,1022787
+"28 Years Later,",6.602,1100988
+"Materialists,",6.3,1136867
+"The Life of Chuck,",7.3,842924
+"How to Train Your Dragon,",7.926,1087192
+"Karate Kid: Legends,",7.01,1011477
+"Dangerous Animals,",6.436,1285965
+"Ballerina,",7.2,541671
+"Friendship,",6.4,1239655
+"Lilo & Stitch,",7.2,552524
+"Mission Impossible: The Final Reckoning,",7.16,575265
+"Hurry Up Tomorrow,",5.156,1093237
+"Clown in a Cornfield,",6.116,713364
+"The Surfer,",5.7,1128655
+"Thunderbolts*,",7.292,986056
+"Until Dawn,",6.3,1232546
+"The Legend of Ochi,",6.086,896536
+"The Ballad of Wallis Island,",7.213,1122099
+"Sinners,",7.472,1233413
+"Marshmallow,",6.075,1134048
+"The Accountant 2,",7.065,870028
+"Drop,",10.0,1312088
+"Warfare,",7.076,1241436
+"The Amateur,",6.953,1087891
+"_____ of a Summer,",5.6,999243
+"The Luckiest Man in America,",6.3,1288070
+"A Minecraft Movie,",6.3,950387
+"Screamboat,",5.1,1225572
+"The Woman in the Yard,",5.669,1244944
+"A Working Man,",6.7,1197306
+"Death of a Unicorn,",6.401,1153714
+"The Assessment,",6.823,1317088
+"Ash,",6.1,484525
+"Locked,",6.186,1083968
+"Snow White,",4.3,447273
+"In the Lost Lands,",6.347,324544
+"Opus,",5.742,1202479
+"Novocaine,",6.794,1195506
+"Black Bag,",6.344,1233575
+"The Rule of Jenny Pen,",6.2,1212742
+"Mickey 17,",6.83,696506
+"Flight Risk,",5.946,1126166
+"Last Breath,",6.886,972533
+"I Heart Willie,",4.4,1372605
+"The Monkey,",6.0,1124620
+"Paddington in Peru,",6.816,516729
+"Heart Eyes,",6.3,1302916
+"Love Hurts,",8.01,51822
+"Companion,",7.008,1084199
+"Presence,",6.121,1140535
+"One of Them Days,",6.636,1280672
+"The Brutalist,",6.961,549509
+"Wolfman,",7.0,1394125
+"Peter Pan's Neverland Nightmare,",5.7,1020414
+"The Last Showgirl,",6.409,1235499
+"Bring Her Back,",7.339,1151031
+The King's Warden,6.9,1321179
+Ready or Not 2: Here I Come,7.061,1266127
+Project Hail Mary,8.227,687163
+Slanted,6.9,1297446
+Undertone,6.5,1480387
+Hoppers,7.584,1327819
+Scream 7,6.024,1159559
+The Mortuary Assistant,5.608,1470130
+How to Make a Killing,6.982,467905
+Crime 101,7.002,1171145
+Wuthering Heights,6.6,25095
+Dracula,7.071,1246049
+"Nirvanna the band, the show, the movie",7.7,1154538
+Whistle,6.019,1193501
+Iron Lung,7.3,1116201
+Shelter,6.795,1290821
+Send Help,7.026,1198994
+Mercy,6.973,1236153
+Dead Man's Wire,6.3,1263012
+28 Years Later: The Bone Temple,7.167,1272837
+Is This Thing On?,6.479,1140498
+Primate,6.5,1315303
+The Plague,6.4,1370814
+Marty Supreme,7.4,1317288
