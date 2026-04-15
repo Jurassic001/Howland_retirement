@@ -25,6 +25,9 @@ jobs:
       - name: Gather Howland's ratings
         run: uv run scripts/get_ratings.py
 
+      - name: Prepend archived data
+        run: uv run scripts/prepend_archives.py
+
       - name: Gather TMDB ratings
         run: uv run scripts/tmdb_ratings.py --tmdb_token ${{ secrets.TMDB_TOKEN }}
 
