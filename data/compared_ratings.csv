@@ -1,102 +1,461 @@
 Title,Popular Rating,Howland Rating,Genres
-Eternity,6.55,9,Romance; Comedy; Fantasy
-Nuremberg,7.303,7,History; Drama; War; Thriller
-Predator: Badlands,7.414,8,Action; Science Fiction; Adventure
-Liz Miele: Self Help Me,9.0,7,
-Regretting You,7.1,6,Romance; Drama
-Springsteen: Deliver Me from Nowhere,7.0,5,Drama; Music
-Shelby Oaks,5.686,6,Horror; Mystery
-Good Fortune,7.095,5,Comedy; Fantasy
-Black Phone 2,6.866,8,Horror; Thriller
-Roofman,7.244,7,Comedy; Drama; Crime
-TRON: Ares,6.313,7,Science Fiction; Adventure; Action
-One Battle After Another,7.5,8,Action; Thriller; Crime
-Dead of Winter,6.5,7,Thriller
-A Big Bold Beautiful Journey,6.314,7,Romance; Fantasy; Drama
-HIM,5.864,5,Horror; Mystery
-The Long Walk,6.9,8,Thriller; Science Fiction; Horror
-Spinal Tap II: The End Continues,6.9,10,Music; Comedy
-The Conjuring: Last Rites,6.973,7,Horror
-Caught Stealing,6.895,9,Crime; Thriller; Comedy
-The Roses,6.756,5,Comedy; Drama; Romance
-Trust,5.7,6,Thriller
-Honey Don't!,5.659,5,Comedy; Crime
-Primitive War,6.802,2,Action; Horror; War
-Witchboard,5.8,6,Horror
-Eden,6.739,6,Thriller; Drama
-Americana,1.2,7,TV Movie; Drama
-Together,7.1,8,Horror; Romance
-Nobody 2,7.06,5,Action; Thriller
-Sketch,7.151,6,Adventure; Fantasy; Comedy; Family
-Strange Harvest,6.804,7,Horror; Crime; Mystery
-Weapons,7.321,10,Horror; Mystery
+Cats,6.6,1,Animation; Family; Adventure
+Bombshell,6.777,6,Drama
+Just Mercy,7.856,8,Drama; Crime; History
+Jumanji: The Next Level,6.875,6,Adventure; Comedy; Fantasy
+Joker,8.126,9,Crime; Thriller; Drama
+Ad Astra,6.127,7,Science Fiction; Drama
+Judy,6.678,7,Drama; History; Music
+Abominable,7.5,6,Family; Animation; Adventure; Comedy; Fantasy
+The Peanut Butter Falcon,7.396,9,Adventure; Comedy; Drama
+Don't Let Go,6.0,7,Drama
+Jexi,6.755,2,Comedy
+The Good Liar,6.689,5,Crime
+Gemini Man,6.265,6,Science Fiction; Action; Adventure; Thriller; Drama
+Queen & Slim,7.135,4,Crime; Drama; Romance
+21 Bridges,6.768,6,Crime; Action; Drama
+Dark Waters,7.5,7,Drama; Thriller
+Knives Out,7.839,10,Comedy; Crime; Mystery
+A Beautiful Day in the Neighborhood,6.968,9,History; Family; Drama
+Frozen II,7.233,7,Family; Animation; Adventure; Comedy; Fantasy
+Ford v Ferrari,8.005,7,Drama; Action; History
+Midway,7.096,3,Action; War; History
+Last Christmas,7.2,5,Comedy; Drama; Romance
+Charlie's Angels,5.852,4,Action; Comedy; Adventure
+Doctor Sleep,7.145,7,Horror; Fantasy
+Terminator: Dark Fate,6.415,8,Science Fiction; Action; Adventure; Thriller
+Countdown,6.5,2,Action; Thriller
+Motherless Brooklyn,6.694,5,Drama; Thriller
+Zombieland: Double Tap,6.899,7,Horror; Comedy
+Little Women,7.854,8,Drama; Romance
+1917,7.987,10,War; History; Drama
+Uncut Gems,7.161,5,Drama; Thriller; Crime
+Marriage Story,7.734,8,Drama
+The Irishman,7.575,7,Crime; Drama; History
+The Two Popes,7.49,7,Drama; History
+Come Play,5.0,7,Thriller; Horror
+The Empty Man,6.168,3,Horror; Mystery
+Honest Thief,6.481,5,Thriller; Action; Crime
+The Trial of the Chicago 7,7.7,8,Drama; History
+Infidel,5.3,3,Documentary
+Bill & Ted Face the Music,5.9,7,Comedy; Science Fiction; Adventure; Music
+The New Mutants,6.08,5,Science Fiction; Horror; Action
+Unhinged,2.0,4,Romance; Comedy
+The Way Back,6.997,5,Drama; Adventure; History
+Seberg,5.893,6,Thriller; Drama
+The Invisible Man,7.092,7,Thriller; Science Fiction; Horror
+Fantasy Island,5.763,3,Adventure; Fantasy; Horror; Mystery
+Call of the Wild,6.0,6,Adventure
+Sonic the Hedgehog,7.286,7,Action; Science Fiction; Comedy; Family
+Pain and Glory,7.373,8,Drama
+Birds of Prey,4.214,6,Horror
+The Lodge,6.112,8,Horror; Drama; Mystery; Thriller
+The Rhythm Section,5.5,4,Action; Thriller
+Gretel & Hansel,10.0,5,Drama; Fantasy
+The Gentlemen,7.662,8,Comedy; Crime
+The Last Full Measure,7.3,5,Drama; Action; War
+Color Out of Space,6.067,8,Horror; Science Fiction; Mystery; Thriller
+Underwater,6.279,5,Horror; Science Fiction; Action; Adventure
+Dolittle,6.577,4,Family; Comedy; Fantasy; Adventure
+The Turning,5.7,1,Drama
+The Grudge,5.9,3,Horror; Mystery; Thriller
+I Still Believe,7.571,3,Music; Drama; Romance
+Onward,7.642,8,Animation; Family; Fantasy; Adventure; Comedy
+Nightmare Alley,6.955,4,Crime; Drama; Thriller
+The Matrix Resurrections,6.3,7,Science Fiction; Action; Adventure
+Spider-Man: No Way Home,7.934,8,Action; Adventure; Science Fiction
+House of Gucci,6.566,5,Drama; Crime; History
+Encanto,7.569,6,Animation; Comedy; Family; Fantasy
+Spencer,6.7,5,Drama
+Belfast,7.041,10,Drama; History
+Eternals,6.8,6,Science Fiction; Action; Adventure
+Last Night in Soho,7.278,9,Horror; Mystery
+The Last Duel,7.0,7,Action
+Dune,7.78,10,Science Fiction; Adventure
+Halloween Kills,6.4,4,Horror; Thriller
+Lamb,6.427,8,Drama; Fantasy; Horror
+No Time to Die,7.34,8,Action; Thriller; Adventure
+The Protégé,6.6,5,Action; Thriller
+The Card Counter,6.122,8,Drama; Thriller; Crime
+Malignant,6.749,7,Horror; Mystery
+Shanghai Blues,7.0,7,Comedy; Romance
+The Night House,6.567,5,Horror; Mystery
+Candyman,6.0,7,Horror; Thriller
+Free Guy,7.453,7,Comedy; Adventure; Science Fiction
+The Whale,7.8,7,Drama
+Avatar: The Way of Water,7.6,8,Action; Adventure; Science Fiction
+Violent Night,7.226,7,Action; Comedy; Fantasy
+Strange World,6.232,4,Animation; Family; Adventure; Fantasy; Science Fiction
+The Fabelmans,7.572,7,Drama
+Bones and All,7.0,8,Horror; Romance; Drama
+Glass Onion: A Knives Out Mystery,7.033,9,Comedy; Crime; Mystery
+Devotion,5.5,8,Romance; Drama
+The Banshees of Inisherin,7.464,7,Drama; Comedy
+The Menu,7.171,8,Comedy; Horror
+Black Panther: Wakanda Forever,7.007,8,Action; Adventure; Science Fiction
+Triangle of Sadness,7.0,7,Comedy; Drama
+Prey for the Devil,6.9,6,Horror; Thriller
+Black Adam,6.815,6,Action; Adventure; Science Fiction
+Terrifier 2,6.7,6,Horror
+Halloween Ends,6.0,4,Horror; Thriller
+Amsterdam,6.068,5,Mystery; Comedy; Drama
+Smile,6.662,9,Horror; Mystery
+Don't Worry Darling,6.771,5,Science Fiction; Mystery; Thriller
+See How They Run,6.3,7,Horror; Comedy
+The Woman King,7.614,6,Action; Drama; History; War
+Where the Crawdads Sing,7.529,5,Drama; Mystery; Romance
+Honk for Jesus. Save Your Soul.,4.7,6,Comedy; Drama
+Vengeance!,6.3,9,Action; Drama; Crime
+The Invitation,6.0,3,Horror; Thriller
+Prey,7.662,8,Thriller; Action; Science Fiction
+Bodies Bodies Bodies,6.2,2,Horror; Comedy; Mystery; Thriller
+Beast,4.8,5,Drama; Thriller
+Nope,6.822,8,Horror; Science Fiction
+Bullet Train,7.413,8,Action; Comedy; Thriller
+The Black Phone,7.528,8,Horror; Thriller
+Elvis,7.463,7,Music; History; Drama
+Thor: Love and Thunder,6.4,5,Fantasy; Action; Comedy
+Lightyear,6.879,6,Animation; Science Fiction; Family; Adventure
+Jurassic World Dominion,6.603,5,Adventure; Action; Science Fiction
+Top Gun: Maverick,8.151,10,Action; Drama
+The Northman,7.033,10,Action; Adventure; Fantasy
+Surfer: Teen Confronts Fear,6.0,0,Drama
+Fantastic Beasts: The Secrets of Dumbledore,6.627,5,Fantasy; Adventure
+Everything Everywhere All at Once,7.7,10,Action; Adventure; Science Fiction
+Sonic the Hedgehog 2,7.4,7,Action; Adventure; Family; Comedy
+Morbius,5.918,5,Action; Science Fiction; Fantasy
+Cyrano,6.3,6,Drama; Romance
+Studio 666,5.885,8,Horror; Comedy; Music
+The Batman,7.7,7,Crime; Mystery; Thriller
+The Cursed,6.6,5,Horror; Drama; Thriller
+Death on the Nile,6.4,6,Mystery; Crime; Thriller
+The 355,6.0,5,Action; Adventure; Thriller
+Licorice Pizza,6.955,8,Drama; Comedy; Romance
+Saltburn,6.955,7,Drama; Comedy; Thriller
+Poor Things,7.648,8,Science Fiction; Romance; Comedy
+The Iron Claw,7.507,9,History; Drama
+Aquaman and the Lost Kingdom,6.526,3,Action; Adventure; Fantasy
+Ferrari,3.0,5,Drama; Thriller
+Anyone But You,6.79,7,Romance; Comedy
+Wonka,7.041,8,Comedy; Family; Fantasy
+Silent Night,5.2,7,Drama; Romance
+The Boys in the Boat,7.24,8,Drama; History
+The Boy and the Heron,7.407,8,Animation; Fantasy; Drama
+Godzilla Minus One,7.573,10,Science Fiction; Horror; Action
+Dream Scenario,6.649,9,Comedy; Fantasy
+Priscilla,6.716,8,Drama; Romance
+Wish,6.222,7,Animation; Family; Fantasy; Adventure
+Napoleon,7.8,6,Drama; History; War
+Next Goal Wins,6.413,8,Comedy; Drama
+The Hunger Games: The Ballad of Songbirds & Snakes,7.0,7,Science Fiction; Action
+The Holdovers,7.651,7,Drama; Comedy
+The Marvels,5.941,5,Science Fiction; Adventure; Action
+The Marsh King's Daughter,6.366,5,Thriller; Crime; Mystery
+Anatomy of a Fall,7.5,9,Thriller; Mystery; Crime
+Five Nights at Freddy's,7.331,7,Horror; Thriller
+Soulmates,3.0,3,Horror
+Killers of the Flower Moon,7.399,8,Crime; History; Drama
+When Evil Lurks,7.151,9,Horror; Thriller
+The Royal Hotel,5.367,7,Drama; Thriller
+The Kill Room,5.9,6,Comedy; Crime
+The Creator,7.005,8,Science Fiction; Action; Adventure
+It Lives Inside,5.683,7,Horror; Mystery
+Satanic Hispanics,5.889,5,Horror; Thriller; Comedy; Fantasy
+A Haunting in Venice,6.574,6,Mystery; Thriller; Crime
+Dumb Money,6.7,10,History; Comedy; Drama
+Aristotle and Dante Discover the Secrets of the Universe,7.472,7,Romance; Drama
+The Nun II,6.6,4,Horror
+Don't Look Away,4.4,3,Horror; Thriller
+The Equalizer 3,7.29,6,Action; Thriller; Crime
+Retribution,5.7,4,TV Movie; Thriller
+Golda,9.0,7,Documentary
+Bottoms,6.752,10,Comedy
+Landscape with Invisible Hand,5.9,10,Science Fiction; Comedy; Drama
+Birth/Rebirth,6.5,9,Drama; Horror; Mystery
+Blue Beetle,6.636,7,Action; Science Fiction; Adventure
+The Last Voyage of the Demeter,6.752,5,Horror; Fantasy
+Jules,7.2,7,Comedy; Science Fiction; Drama
+Gran Turismo,7.705,8,Adventure; Drama; Action
+Theater Camp,10.0,9,Comedy
+Teenage Mutant Ninja Turtles: Mutant Mayhem,7.2,8,Animation; Comedy; Action; Science Fiction
+Meg 2: The Trench,6.378,1,Action; Science Fiction; Horror
+Haunted Mansion,2.0,6,Horror
+Oppenheimer,8.0,10,Drama; History
+Barbie,6.926,5,Comedy; Adventure
+Mission: Impossible - Dead Reckoning Part One,7.5,7,Action; Thriller; Adventure
+Sound of Freedom,7.956,7,Action; Drama
+The Lesson,3.5,6,Animation; Science Fiction
+No Hard Feelings,6.678,5,Comedy; Romance
+Past Lives,7.715,10,Drama; Romance
+Indiana Jones and the Dial of Destiny,6.513,5,Adventure; Action
+Asteroid City,6.452,7,Comedy; Drama
+God Is a Bullet,6.0,6,Thriller; Action; Crime
+Elemental,7.578,8,Animation; Family; Romance; Fantasy; Comedy
+The Flash,10.0,6,Action; Crime; Science Fiction; Drama
+The Boogeyman,1.0,4,Documentary
+Spider-Man: Across the Spider-Verse,8.333,9,Animation; Action; Adventure; Science Fiction
+The Machine,5.1,5,Horror; Thriller; Science Fiction
+The Little Mermaid,5.5,4,Animation; Family; Adventure; Comedy
+Fast X,7.0,5,Action; Crime; Thriller
+Hypnotic,6.2,7,Mystery; Science Fiction; Thriller
+Fool's Paradise,4.6,7,Comedy
+Guardians of the Galaxy Vol. 3,7.924,6,Science Fiction; Adventure; Action
+Evil Dead Rise,6.911,8,Horror; Thriller
+Polite Society,6.271,9,Comedy; Action; Drama
+Sisu,7.414,8,Action; War; Thriller
+The Covenant,2.0,7,Music; Drama; History
+Beau Is Afraid,6.705,4,Comedy; Adventure; Fantasy
+Nefarious,6.705,7,Horror; Drama
+Renfield,6.451,6,Comedy; Fantasy; Horror
+Paint,5.4,3,Comedy; Drama; Romance
+The Super Mario Bros. Movie,7.6,5,Family; Comedy; Adventure; Fantasy; Animation
+Malum,5.516,7,Horror
+Air,7.0,7,Drama
+Dungeons & Dragons: Honor Among Thieves,7.326,9,Adventure; Fantasy; Comedy
+A Good Person,7.05,8,Drama; Comedy
+John Wick: Chapter 4,7.707,8,Action; Thriller; Crime
+Shazam! Fury of the Gods,6.428,3,Comedy; Action; Fantasy
+65,5.95,4,Action; Adventure; Science Fiction
+Scream VI,6.952,5,Horror; Thriller; Crime
+Creed III,7.077,8,Drama; Action
+Cocaine Bear,5.998,5,Thriller; Comedy; Crime
+Winnie-the-Pooh: Blood and Honey 2,5.775,3,Horror; Thriller
+Living,6.964,9,Drama
+All Quiet on the Western Front,7.717,10,War; Drama
+Knock at the Cabin,6.248,7,Horror; Mystery; Thriller
+Missing,4.5,8,Crime; Thriller
+Puss in Boots: The Last Wish,8.2,8,Animation; Adventure; Fantasy; Comedy; Family
+Skinamarink,5.3,1,Horror
+Babylon,7.362,6,Drama; Comedy
+Megan,5.6,5,Thriller
+A Man Called Otto,7.753,10,Comedy; Drama
+Talk to Me,7.136,10,Horror
+Mufasa: The Lion King,7.31,5,Adventure; Family; Animation
+The Lord of the Rings: The War of the Rohirrim,6.544,4,Animation; Fantasy; Adventure; Action
+Y2K,5.1,8,Science Fiction; Horror; Comedy
+Moana 2,6.994,8,Animation; Adventure; Family; Comedy; Fantasy
+Gladiator II,6.616,7,Action; Adventure; Drama
+Wicked,6.911,8,Drama; Romance; Fantasy
+A Real Pain,6.773,9,Comedy; Drama
+Red One,6.992,4,Action; Comedy; Fantasy
+Anora,7.1,5,Drama; Comedy; Romance
+Heretic,6.978,9,Thriller; Horror
+Here,6.527,5,Drama
+We Live in Time,7.227,7,Romance; Drama
+Conclave,7.193,6,Drama; Thriller
+Venom: The Last Dance,6.661,5,Science Fiction; Action; Adventure
+Rumours,4.921,3,Comedy; Horror
+Smile 2,6.593,8,Horror; Mystery; Music
+Piece by Piece,7.246,7,Animation; Music; Documentary; Comedy
+Joker: Folie à Deux,5.4,5,Drama; Crime; Thriller
+Megalopolis,6.3,3,Documentary
+The Wild Robot,8.307,7,Family; Animation; Science Fiction; Adventure
+Transformers One,8.0,8,Animation; Science Fiction; Adventure; Family
+The Substance,7.136,9,Horror; Science Fiction; Drama
+The Killer's Game,6.4,6,Action; Comedy; Thriller
+Speak No Evil,7.135,7,Horror; Thriller
+My Old Ass,6.781,10,Comedy; Drama
+The Front Room,5.012,3,Horror
+Beetlejuice Beetlejuice,6.9,8,Comedy; Fantasy; Horror
+City of Dreams,6.3,6,Drama; Thriller
+Afraid,5.9,7,Horror; Science Fiction; Thriller
+Strange Darling,6.914,8,Horror; Thriller
+Slingshot,5.4,5,Crime; Drama
+The Crow,5.8,4,Action; Fantasy; Horror
+Blink Twice,6.679,9,Mystery; Thriller
+It Ends with Us,6.9,6,Drama; Romance
+Cuckoo,5.7,5,Horror; Mystery; Thriller
+Alien: Romulus,7.167,7,Horror; Science Fiction
+Skincare,6.0,6,Thriller; Drama; Comedy; Mystery
+Borderlands,5.602,4,Action; Science Fiction; Comedy
+Trap,6.236,7,Crime; Horror; Thriller
+The Beast Within,5.0,3,Drama
+Deadpool & Wolverine,7.557,8,Action; Comedy; Science Fiction
+Oddity,6.657,3,Horror; Mystery
+Twisters,6.778,9,Action; Thriller
+Longlegs,6.5,10,Crime; Horror; Mystery
+The Bikeriders,6.678,7,Crime; Drama
+Despicable Me 4,6.982,7,Family; Comedy; Animation; Science Fiction; Action
+MaXXXine,6.301,9,Horror; Thriller
+Horizon: An American Saga - Chapter 1,6.814,6,Western; Drama
+A Quiet Place: Day One,6.655,7,Horror; Science Fiction; Thriller
+Latency,5.9,3,Science Fiction; Thriller; Horror
+Inside Out 2,7.544,8,Animation; Adventure; Comedy; Family
+The Watchers,6.3,5,Fantasy; Horror; Mystery
+Furiosa: A Mad Max Saga,7.451,9,Action; Science Fiction; Adventure
+Ezra,6.0,7,Horror; Thriller
+Hit Man,6.794,10,Comedy; Romance; Crime
+The Strangers: Chapter 1,5.7,2,Horror; Thriller
+Kingdom of the Planet of the Apes,7.1,6,Science Fiction; Adventure; Action
+Tarot,6.365,3,Horror
+The Fall Guy,6.957,8,Action; Comedy; Romance
+Challengers,6.915,6,Drama; Romance
+Abigail,6.7,4,Horror; Thriller
+SPY x FAMILY CODE: White,7.124,6,Animation; Comedy; Adventure; Action
+Sting,6.194,5,Horror; Thriller
+Civil War,6.855,8,War; Action; Drama
+The Ministry of Ungentlemanly Warfare,7.016,8,Action; Comedy; War
+Monkey Man,6.9,7,Action; Thriller
+Late Night with the Devil,7.112,10,Horror
+Godzilla x Kong: The New Empire,7.048,4,Action; Adventure; Science Fiction
+Winnie-the-Pooh: Blood and Honey 2,5.775,3,Horror; Thriller
+Immaculate,6.2,4,Horror; Mystery; Thriller
+Ghostbusters: Frozen Empire,6.5,6,Fantasy; Adventure; Comedy
+Imaginary,5.912,4,Horror; Mystery
+Arthur the King,7.5,6,Adventure; Drama
+One Life,1.5,9,Romance; Drama
+Dune: Part Two,8.13,10,Science Fiction; Adventure
+Kiss the Future,6.4,8,Documentary
+Bob Marley: One Love,6.609,8,Music; History; Drama
+Madame Web,5.301,4,Action; Fantasy
+Lisa Frankenstein,6.335,10,Horror; Comedy; Romance
+Argylle,5.994,7,Action; Adventure; Comedy
+Out of Darkness,5.7,5,Adventure; Horror; Thriller
+American Fiction,7.265,9,Comedy; Drama
+Miller's Girl,6.331,3,Thriller; Drama; Romance
+Freud's Last Session,6.618,5,Drama
+I.S.S.,5.791,3,Science Fiction; Thriller
+Mean Girls,7.224,8,Drama; Comedy
+Origin,4.6,7,Action; Drama; Thriller; Science Fiction
+The Beekeeper,7.244,7,Action; Crime; Thriller
+Night Swim,5.504,4,Horror; Mystery
+The Book of Clarence,5.87,6,Adventure; Comedy; Drama
+The Housemaid,7.197,6,Mystery; Thriller
+Anaconda,5.874,7,Adventure; Comedy; Horror
+Hamnet,7.7,8,Drama; Romance; History
+We Bury the Dead,6.1,5,Horror; Thriller
+Ella McCay,5.5,6,Comedy; Drama
+Avatar: Fire and Ash,7.377,8,Science Fiction; Adventure; Fantasy
+Fackham Hall,6.702,6,Comedy
+Five Nights at Freddy's 2,6.7,4,Horror; Thriller
+Rental Family,7.769,10,Drama; Comedy
+Wake Up Dead Man: A Knives Out Mystery,7.2,9,Thriller; Mystery; Comedy
+Zootopia 2,7.601,8,Animation; Family; Mystery; Adventure; Comedy
+Wicked: For Good,6.632,7,Fantasy; Adventure; Romance
+Now You See Me: Now You Don't,6.508,5,Crime; Thriller
+The Running Man,6.758,7,Action; Thriller; Science Fiction
+Eternity,6.983,9,Romance; Comedy; Drama
+Nuremberg,7.367,7,History; Drama
+Predator: Badlands,7.697,8,Action; Science Fiction; Adventure
+Self-Help,5.0,7,Horror; Thriller
+Regretting You,7.0,6,Romance; Drama
+Springsteen: Deliver Me from Nowhere,6.698,5,Drama; Music
+Shelby Oaks,5.69,6,Horror; Mystery
+Good Fortune,6.933,5,Comedy; Fantasy
+Black Phone 2,6.7,8,Horror; Thriller
+Roofman,7.114,7,Crime; Comedy; Drama
+TRON: Ares,6.469,7,Science Fiction; Adventure; Action
+One Battle After Another,7.37,8,Thriller; Crime; Comedy
+Dead of Winter,6.358,7,Thriller; Action
+A Big Bold Beautiful Journey,6.238,7,Romance; Fantasy; Drama
+Him,4.5,5,Drama
+The Long Walk,6.9,8,Science Fiction; Thriller; Horror
+Spinal Tap II: The End Continues,6.38,10,Comedy; Music
+The Conjuring: Last Rites,6.881,7,Horror
+Caught Stealing,6.896,9,Crime; Thriller; Comedy
+The Roses,6.694,5,Comedy; Drama
+Trust,3.2,6,Drama; History
+Honey Don't!,5.6,5,Comedy; Crime; Mystery; Thriller
+Primitive War,6.534,2,Action; Horror; War; Science Fiction
+Witchboard,5.902,6,Horror
+Eden,6.7,6,Drama
+Americana,6.3,7,Crime; Thriller; Western; Action
+Together,7.0,8,Horror; Romance
+Nobody 2,6.941,5,Action; Thriller
+Sketch,6.0,6,Romance
+Strange Harvest,6.632,7,Horror; Crime; Mystery
+Weapons,7.253,10,Horror; Mystery
 East of Wall,6.2,6,Drama; Western
-"Sorry, Baby",6.8,8,Drama; Comedy
-The Naked Gun,6.504,9,Action; Comedy; Crime
-Eddington,6.469,4,Western; Comedy; Crime
-Ick,6.6,2,Horror; Science Fiction
-Bambi: The Reckoning,5.604,1,Horror; Thriller
-House on Eden,4.4,7,Horror
-The Fantastic 4: First Steps,7.036,8,Science Fiction; Adventure; Action
-I Know What You Did Last Summer,5.805,2,Horror; Mystery; Thriller
-Abraham's Boys: A Dracula Story,5.537,6,Horror
+"Sorry, Baby",6.9,8,Drama; Comedy
+The Naked Gun,6.358,9,Action; Comedy; Crime
+Eddington,6.458,4,Western; Comedy; Crime
+Ick,6.378,2,Horror; Science Fiction
+Bambi: The Reckoning,5.6,1,Horror; Thriller
+House on Eden,4.856,7,Horror
+The Fantastic 4: First Steps,7.0,8,Science Fiction; Adventure; Action
+I Know What You Did Last Summer,5.679,2,Horror; Thriller; Mystery
+Abraham's Boys: A Dracula Story,5.274,6,Horror
 Skillhouse,4.0,1,Horror
-Superman,7.414,7,Science Fiction; Adventure; Action
-Jurassic World Rebirth,6.378,6,Science Fiction; Adventure; Action
-M3GAN 2.0,7.4,5,Action; Science Fiction; Thriller
-Elio,6.977,8,Family; Comedy; Adventure; Animation; Science Fiction
-28 Years Later,6.671,6,Horror; Thriller; Science Fiction
-Materialists,6.495,6,Romance; Drama
-The Life of Chuck,7.346,3,Fantasy; Drama
-How to Train Your Dragon,8.0,9,Fantasy; Family; Action; Adventure
-Karate Kid: Legends,7.099,6,Action; Adventure; Drama
-Dangerous Animals,6.4,9,Horror; Thriller
-Ballerina,7.32,8,Action; Thriller; Crime
-Bring Her Back,7.415,10,Horror
-Friendship,6.5,9,Comedy
-Lilo & Stitch,7.2,6,Family; Science Fiction; Comedy; Adventure
-Mission: Impossible - The Final Reckoning,7.259,7,Action; Thriller
-Hurry Up Tomorrow,5.263,1,Music; Thriller; Drama
-Clown in a Cornfield,6.107,5,Horror; Mystery; Thriller
-The Surfer,5.804,8,Thriller; Drama
-Thunderbolts*,7.311,7,Action; Science Fiction; Adventure
-Until Dawn,6.39,4,Horror; Mystery
-The Legend of Ochi,6.2,7,Family; Fantasy; Adventure
-The Ballad of Wallis Island,7.097,7,Comedy; Drama; Music
-Sinners,7.508,9,Horror; Action; Thriller
-Marshmallow,6.109,6,Horror; Science Fiction
-The Accountant²,7.119,7,Mystery; Crime; Thriller
-Drop,6.386,7,Mystery; Thriller
-Warfare,7.1,10,War; Action
-The Amateur,6.97,6,Thriller; Action
+Superman,7.343,7,Science Fiction; Adventure; Action
+Jurassic World Rebirth,6.277,6,Science Fiction; Adventure; Action
+M3GAN 2.0,7.233,5,Action; Science Fiction; Thriller
+Elio,6.922,8,Animation; Family; Science Fiction; Adventure; Comedy
+28 Years Later,6.602,6,Horror; Thriller; Science Fiction
+Materialists,6.3,6,Romance; Drama
+The Life of Chuck,7.3,3,Fantasy; Drama
+How to Train Your Dragon,7.926,9,Fantasy; Family; Action; Adventure
+Karate Kid: Legends,7.01,6,Action; Adventure; Drama
+Dangerous Animals,6.436,9,Horror; Thriller
+Ballerina,7.2,8,Action; Thriller; Crime
+Friendship,6.4,9,Comedy
+Lilo & Stitch,7.2,6,Family; Science Fiction; Comedy
+Mission: Impossible - The Final Reckoning,7.16,7,Action; Thriller; Adventure
+Hurry Up Tomorrow,5.156,1,Music; Thriller; Drama
+Clown in a Cornfield,6.116,5,Horror; Mystery; Thriller
+The Surfer,5.7,8,Thriller; Drama
+Thunderbolts*,7.292,7,Action; Science Fiction; Adventure
+Until Dawn,6.3,4,Horror; Mystery
+The Legend of Ochi,6.086,7,Family; Fantasy; Adventure
+The Ballad of Wallis Island,7.213,7,Comedy; Drama; Music
+Sinners,7.472,9,Horror; Action; Thriller
+Marshmallow,6.075,6,Horror; Science Fiction
+The Accountant²,7.065,7,Mystery; Crime; Thriller
+Drop,10.0,7,Drama; Mystery
+Warfare,7.076,10,War; Action
+The Amateur,6.953,6,Thriller; Action
 Hell of a Summer,5.6,7,Horror; Comedy; Mystery
-The Luckiest Man in America,6.4,6,Drama; History; Comedy
-A Minecraft Movie,6.348,7,Family; Fantasy; Comedy; Adventure; Action
-Screamboat,5.08,0,Horror; Comedy
-The Woman in the Yard,5.712,6,Drama; Horror; Thriller
-A Working Man,6.706,5,Action; Crime; Thriller
-Death of a Unicorn,6.424,6,Horror; Fantasy; Comedy
-The Assessment,6.865,7,Science Fiction; Drama; Thriller
-Ash,5.199,6,Horror; Science Fiction
-Locked,6.3,5,Horror; Thriller
-Snow White,4.297,5,Family; Fantasy
-In the Lost Lands,6.411,4,Action; Fantasy; Western
-Opus,5.688,7,Horror; Mystery; Thriller
-Novocaine,6.9,7,Action; Comedy; Thriller
-Black Bag,6.342,7,Drama; Mystery; Thriller
-The Rule of Jenny Pen,5.975,8,Horror; Thriller; Mystery
-Mickey 17,6.847,5,Science Fiction; Comedy; Adventure
-Flight Risk,5.989,5,Action; Thriller
-Last Breath,6.967,7,Thriller; Drama
-I Heart Willie,4.778,2,Horror
-The Monkey,5.988,8,Horror; Comedy
-Paddington in Peru,6.8,8,Family; Comedy; Adventure
-Heart Eyes,6.428,7,Horror; Comedy; Romance
-Love Hurts,5.752,6,Action; Comedy; Romance
-Companion,7.044,7,Horror; Science Fiction; Thriller
-Presence,6.093,9,Horror; Thriller; Drama
-One of Them Days,6.654,7,Comedy
-The Brutalist,7.0,8,Drama; History
-Wolfman,2.4,6,Horror
-Peter Pan's Neverland Nightmare,5.764,1,Horror; Thriller; Fantasy
-The Last Showgirl,6.504,8,Drama
+The Luckiest Man in America,6.3,6,Drama; History; Comedy
+A Minecraft Movie,6.3,7,Family; Fantasy; Comedy; Adventure
+Screamboat,5.1,0,Horror; Comedy
+The Woman in the Yard,5.669,6,Horror; Mystery
+A Working Man,6.7,5,Action; Crime; Thriller
+Death of a Unicorn,6.401,6,Horror; Fantasy; Comedy
+The Assessment,6.823,7,Science Fiction; Drama; Thriller
+Ash,6.1,6,Crime; Mystery
+Locked,6.186,5,Horror; Thriller
+Snow White,4.3,5,Family; Fantasy
+In the Lost Lands,6.347,4,Action; Fantasy; Western
+Opus,5.742,7,Horror; Mystery; Thriller
+Novocaine,6.794,7,Action; Comedy; Thriller
+Black Bag,6.344,7,Drama; Mystery; Thriller
+The Rule of Jenny Pen,6.2,8,Horror; Thriller
+Mickey 17,6.83,5,Science Fiction; Comedy; Adventure
+Flight Risk,5.946,5,Action; Thriller
+Last Breath,6.886,7,Thriller; Drama
+I Heart Willie,4.4,2,Horror
+The Monkey,6.0,8,Horror; Comedy
+Paddington in Peru,6.816,8,Family; Comedy; Adventure
+Heart Eyes,6.3,7,Horror; Comedy; Romance
+Love Hurts,8.01,6,Drama; Romance
+Companion,7.008,7,Horror; Science Fiction; Thriller
+Presence,6.121,9,Drama; Horror; Thriller
+One of Them Days,6.636,7,Comedy
+The Brutalist,6.961,8,Drama; History
+Wolfman,7.0,6,Horror; Thriller
+Peter Pan's Neverland Nightmare,5.7,1,Horror; Thriller; Fantasy
+The Last Showgirl,6.409,8,Drama
+Bring Her Back,7.339,10,Horror
+The King's Warden,6.9,9,History; Drama
+Ready or Not: Here I Come,7.061,7,Horror; Comedy
+Project Hail Mary,8.227,10,Science Fiction; Adventure
+Slanted,6.9,3,Comedy; Horror; Science Fiction
+undertone,6.5,2,Horror; Mystery
+Hoppers,7.584,7,Animation; Family; Science Fiction; Comedy; Adventure
+Scream 7,6.024,5,Horror; Mystery; Crime
+The Mortuary Assistant,5.608,2,Horror; Mystery
+How to Make a Killing,6.982,10,Comedy; Thriller
+Crime 101,7.002,6,Crime; Thriller
+Wuthering Heights,6.6,5,Drama; Romance
+Dracula,7.071,5,Horror; Fantasy; Romance
+Nirvanna the Band the Show the Movie,7.7,10,Comedy; Science Fiction; Adventure
+Whistle,6.019,5,Horror; Mystery
+Iron Lung,7.3,6,Horror; Mystery; Science Fiction
+Shelter,6.795,4,Action; Crime; Thriller
+Send Help,7.026,7,Horror; Thriller; Comedy
+Mercy,6.973,5,Science Fiction; Action; Thriller; Crime
+Dead Man's Wire,6.3,7,Crime; Drama; Thriller
+28 Years Later: The Bone Temple,7.167,7,Horror; Thriller; Science Fiction
+Is This Thing On?,6.479,7,Comedy; Drama
+Primate,6.5,9,Horror; Thriller
+The Plague,6.4,4,Drama; Horror
+Marty Supreme,7.4,7,Drama; Thriller
