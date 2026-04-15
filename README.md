@@ -26,7 +26,6 @@ Solving the mystery put forth by my AP Macroeconomics teacher, Mr. Howland
   - [`poster.jpg`](poster/poster.jpg): Image of the poster
   - [`poster_analysis.md`](poster/poster_analysis.md): Written analysis of the poster
 - `scripts`: Contains scripts used for repository setup and data gathering/analysis
-  - [`install_reqs.py`](scripts/install_reqs.py): Simple helper script for installing required packages
   - [`get_ratings.py`](scripts/get_ratings.py): Python script to scrape and organize movie ratings from Mr.Howland's website
   - [`tmdb_ratings.py`](scripts/tmdb_ratings.py): Python script to fetch movie ratings, official name, and other useful tidbits from [The Movie Database API](https://developer.themoviedb.org/docs/getting-started)
   - [`compare_ratings.py`](scripts/compare_ratings.py): Python script to combine Mr. Howland's ratings with the popular ratings from TMDB, as well as source additional information like movie genre and official title
